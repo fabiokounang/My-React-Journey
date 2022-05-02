@@ -6,6 +6,10 @@
 - Refreshing firebase lesson
 
 ### Projects
-- Coming Soon
-- Coming Soon
-- Coming Soon
+- Simple React App
+  - Incorporate React into existing html
+    - Creating index.html template
+    - Adding h1 tag
+    - Include React CDN
+    - Include Babel (to compile react code into javascript)
+    - Creating first react component using ReactDOM
