@@ -20,6 +20,7 @@
       - Creating first react component using ReactDOM
 
   - Lesson II
+
     - Playing with html and output value to the template using template expression
       - Use className instead of class in JSX, but it will be compiled to class (regular class html) in the browser
       - Syntax to output dynamic value {value}

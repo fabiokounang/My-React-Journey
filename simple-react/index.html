@@ -13,10 +13,19 @@
   <h1>Hello, React Website</h1>
   <div id="banner"></div>
   <script type="text/babel">
+    const title = 'Doctor Strange';
+    const subtitle = 'The Multiverse Of Madness';
+    const address = 'https://www.google.com/';
+
     const Banner = () => {
       return (
-        <div>
-          <p>Hello, World</p>
+        <div className="banner">
+          <p>This is Banner</p>  
+          <h2>{title.toUpperCase()}</h2>
+          <p>{subtitle}</p>
+          <p>Today's date is {new Date().toDateString()}</p>
+          <p>{Math.round(Math.random() * 100)}</p>
+          <a href={address} target="blank">Awesome Website</a>
         </div>
       )
     }
